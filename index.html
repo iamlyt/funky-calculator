@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="A calculator that has a blinking heading title">
+    	<meta name="keywords" content="funky, calculator, cool">
+
+		<!-- what shows up in the tab in browser -->
+		<title>Funky Calculator</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<h1>Funky</br>Calculator</h1>
+			<p>Test out this <strong>FunkyCalculator</strong> by simply clicking on the numbers shown below.</p>
+		</header>
+
+		<section class="calculator">
+
+			<label for="result"><strong>Result:</strong></label>
+			<input type="text" class="result" value="" disabled></input>
+
+			<section class="btn-container">
+
+				<button class="btn-num" type="button" value="1">1</button>
+				<button class="btn-num" type="button" value="2">2</button>
+				<button class="btn-num" type="button" value="3">3</button>
+				<button class="btn-num" type="button" value="4">4</button>
+				<button class="btn-num" type="button" value="5">5</button>
+				<button class="btn-num" type="button" value="6">6</button>
+				<button class="btn-num" type="button" value="7">7</button>
+				<button class="btn-num" type="button" value="8">8</button>
+				<button class="btn-num" type="button" value="9">9</button>
+				<button class="btn-num" type="button" value="0">0</button>
+				
+				<button class="btn-decimal" type="button" value=".">&#46;</button>
+
+				<button class="operator" type="button" value="+">+</button>
+				<button class="operator" type="button" value="-">-</button>
+				<button class="operator" type="button" value="/">&#47;</button>
+				<button class="operator equal" type="button" value="=">=</button>
+
+				<button class="clear" type="button" value="clear">CLEAR</button>
+				<!-- <button class="btn-delete" type="button" value="delete">DELETE</button> -->
+
+			</section>
+
+		</section>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
